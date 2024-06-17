@@ -1,0 +1,31 @@
+.promo {
+  background-image: url("/images/promo.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 110%;
+  color: #fff;
+  margin-top: 130px;
+  width: 80%;
+}
+
+.promoText {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #fff;
+  margin-top: 20px;
+  width: 40%;
+}
+
+.promoButton {
+  width: 260px;
+  padding-block: 16px;
+  margin-top: 40px;
+}

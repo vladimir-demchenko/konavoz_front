@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.navWrapper {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.navLink {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 133%;
+  color: #fff;
+
+  &:active {
+    color: #fff;
+  }
+}

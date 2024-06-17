@@ -1,0 +1,14 @@
+.app {
+  display: grid;
+  grid-template-columns: [full-width-start] minmax(0, 1fr) [content-start] min(100% - 20px, 1200px) [content-end] minmax(0, 1fr) [full-width-end];
+}
+
+.app > *, .full-width > * {
+  grid-column: content;
+}
+
+.app > .full-width {
+  display: grid;
+  grid-template-columns: inherit;
+  grid-column: full-width;
+}
