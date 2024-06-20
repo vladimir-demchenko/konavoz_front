@@ -1,0 +1,32 @@
+.input {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff; 
+  padding-inline: 25px;
+  padding-block: 18px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 140%;
+
+  &::placeholder {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 140%;
+    color: #fff;
+    opacity: 0.2;
+    text-transform: uppercase;
+  }
+
+  &:hover {
+    &::placeholder {
+      opacity: 1;
+    }
+  }
+
+  &:focus {
+    &::placeholder {
+      opacity: 1;
+    }
+  }
+}

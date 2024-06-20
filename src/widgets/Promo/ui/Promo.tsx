@@ -2,7 +2,7 @@ import { FC } from 'react';
 import cls from './Promo.module.scss';
 import { Header } from '@/widgets/Header';
 import classNames from 'classnames';
-import { Button } from '@/shared/ui/Button';
+import { Button, ButtonTheme } from '@/shared/ui/Button';
 
 interface PromoProps {
   className?: string;
@@ -19,7 +19,7 @@ export const Promo: FC<PromoProps> = (props) => {
         </h1>
         <p className={cls.promoText}>Наша компания предлагает Вашему вниманию лучшие органические удобрения для вашего участка <br />
           с доставкой</p>
-        <Button className={cls.promoButton}>Заказать</Button>
+        <Button theme={ButtonTheme.WHITE} className={cls.promoButton}>Заказать</Button>
       </div>
     </section>
   );

@@ -1,0 +1,19 @@
+.title {
+  background-color: rgba(127, 160, 45, 0.2);
+  grid-column: full-width;
+  font-weight: 300;
+  font-size: 112px;
+  color: #3e5b1b;
+  line-height: 133%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 140px;
+}
+
+.productList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 90px 20px;
+  margin-top: 90px;
+}

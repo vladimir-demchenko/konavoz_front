@@ -10,7 +10,7 @@ interface OrganicProps {
 
 export const Organic: FC<OrganicProps> = (props) => {
   return (
-    <section className={classNames(['full-width', cls.organic])}>
+    <section id='organic' className={classNames(['full-width', cls.organic])}>
       <h2 className={cls.title}>Органические удобрения</h2>
       <div className={cls.organicContent}>
         <ProductDetail

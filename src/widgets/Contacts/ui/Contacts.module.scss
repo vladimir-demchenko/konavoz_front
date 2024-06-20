@@ -1,0 +1,74 @@
+.title {
+  background-color: #f0edc6;
+  grid-column: full-width;
+  font-weight: 300;
+  font-size: 112px;
+  color: #2b1f13;
+  line-height: 133%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 140px;
+}
+
+.contactContent {
+  display: flex;
+  gap: 120px;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+
+.contactDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.contactCard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+}
+
+.addressWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cardTitle {
+  width: fit-content;
+  font-weight: 400;
+  font-size: 30px;
+  color: #2b1f13;
+  padding: 8px 16px;
+  border: 1px solid #2b1f13;
+}
+
+.link {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  text-decoration: underline;
+  color: #2b1f13;
+}
+
+.subtext {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  color: #2b1f13;
+  opacity: 0.6;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  color: #2b1f13;
+}
+
+.mapWrapper {
+  width: 50%;
+}
