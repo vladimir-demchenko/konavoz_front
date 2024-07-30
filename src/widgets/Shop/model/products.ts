@@ -15,7 +15,7 @@ export const products: Product[] = [
     image: '/images/shop/1.png'
   },
   {
-    id: 3,
+    id: 2,
     name: 'Перегной коровий',
     price: 250,
     image: '/images/shop/2.png'

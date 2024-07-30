@@ -7,13 +7,16 @@ import classNames from 'classnames';
 export enum ButtonTheme {
   WHITE = 'white',
   WHITE_FULL_FILLED = 'whiteFullFilled',
+  BROWN_FULL_FILLED = 'brownFullFilled',
   BROWN = 'brown',
   LIGHT_BROWN = 'lightBrown',
+  CLEAR = 'clear',
 }
 
 export enum ButtonSize {
   XS = 'xs',
-  M = 'm'
+  M = 'm',
+  DEFAULT = 'default'
 }
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {

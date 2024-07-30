@@ -2,7 +2,7 @@ import cls from './Contacts.module.scss';
 
 export const Contacts = () => {
   return (
-    <section className='full-width'>
+    <section id='contacts' className='full-width'>
       <h2 className={cls.title}>Контакты</h2>
       <div className={cls.contactContent}>
         <div className={cls.contactDetail}>

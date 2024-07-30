@@ -5,7 +5,7 @@ import { DeliveryRequestForm } from '@/features/DeliveryRequestForm';
 
 export const Delivery = () => {
   return (
-    <section className='full-width'>
+    <section id='delivery' className='full-width'>
       <h2 className={cls.title}>Доставка</h2>
       <div className={cls.deliveryDetail}>
         <Image alt='' src='/images/delivery.png' sizes='100wh' width={0} height={0} className={cls.image} />
@@ -19,7 +19,7 @@ export const Delivery = () => {
         <div className={cls.formContent}>
           <h3 className={cls.formTitle}>Хотите заказать доставку?</h3>
           <div className={cls.textWrapper}>
-            <p className={cls.text}>Оставьте свои данные, и мы свяжемся с вами, чтобы оформить заказ и осуществить доставку</p>
+            <p className={`${cls.text} ${cls.upperText}`}>Оставьте свои данные, и мы свяжемся с вами, чтобы оформить заказ и осуществить доставку</p>
             <span className={cls.textHighlighted}>или</span>
             <p className={cls.text}>наберите по телефону:<br />
               +7 (985) 419-02-95</p>

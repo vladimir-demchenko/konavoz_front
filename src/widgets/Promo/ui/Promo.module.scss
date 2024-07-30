@@ -6,6 +6,10 @@
   min-height: 100vh;
 }
 
+.promoContent {
+  padding-top: 160px;
+}
+
 .title {
   font-weight: 600;
   font-size: 72px;
@@ -28,4 +32,24 @@
   width: 260px;
   padding-block: 16px;
   margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 36px;
+    margin-top: 70px;
+  }
+
+  .promoText {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .promoButton {
+    width: 100%;
+  }
+
+  .promoContent {
+    padding-top: 80px;
+  }
 }

@@ -165,3 +165,55 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 768px) {
+  .contactWrapper {
+    display: none;
+  }
+
+  .mainContent {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .subContent {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    justify-items: center;
+  }
+
+  .sublink {
+    grid-column: 1;
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
+
+  .navLink {
+    font-size: 14px;
+  }
+
+  .telegramLogo {
+    width: 35px;
+    height: 35px;
+  }
+
+  .footer {
+    padding-block: 30px 25px;
+  }
+
+  .logoWrapper {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .logoText {
+    font-size: 14px;
+  }
+}

@@ -22,7 +22,7 @@
   color: #543c24;
 }
 
-.detail {
+.productDetail {
   font-weight: 400;
   font-size: 20px;
   line-height: 115%;
@@ -50,4 +50,41 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 115%;
+}
+
+@media (max-width: 768px) {
+  .productCard {
+    gap: 15px;
+  }
+
+  .image {
+    max-width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+
+  .productTitle {
+    font-size: 14px;
+  }
+
+  .productPrice {
+    font-size: 14px;
+  }
+
+  .productButton {
+    font-size: 12px;
+    padding-block: 10px;
+    min-width: 145px !important;
+    width: 145px;
+  }
+
+  .productDetail {
+    font-size: 12px;
+  }
+
+  .newProduct {
+    font-size: 12px;
+    top: 5px;
+    left: 5px;
+  }
 }

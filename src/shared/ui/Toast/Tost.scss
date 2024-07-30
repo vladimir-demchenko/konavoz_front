@@ -1,0 +1,57 @@
+[data-scope="toast"][data-part="root"] {
+  border-radius: 13px;
+  min-width: 200px;
+  position: relative;
+  gap: 5px;
+  padding: 16px;
+  display: block;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  height: var(--height);
+  opacity: var(--opacity);
+  background-color: #fff;
+  scale: var(--scale);
+  translate: var(--x) var(--y) 0;
+  will-change: translate, opacity, scale;
+  z-index: var(--z-index);
+  transition-duration: 300ms;
+  transition-property: translate, scale, opacity, height;
+  transition-timing-function: cubic-bezier(0.2,0.0,0,1.0);
+}
+
+[data-scope="toast"][data-part="icon"][data-type="success"] {
+  display: flex;
+  width: 14px;
+  height: 14px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: #52c41a;
+}
+
+[data-scope="toast"][data-part="icon"][data-type="error"] {
+  display: flex;
+  width: 14px;
+  height: 14px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: #ff4d4f;
+}
+
+[data-scope="toast"][data-part="title"] {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+[data-scope="toast"][data-part="description"] {
+  font-size: 14px;
+}
+
+[data-scope="toast"][data-part="close-trigger"] {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}

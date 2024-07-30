@@ -1,0 +1,86 @@
+[data-scope="dialog"][data-part="backdrop"] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 100;
+}
+
+[data-scope="dialog"][data-part="positioner"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left:0;
+  top:0;
+  width: 100vw;
+  height: 90dvh;
+  z-index: 1000;
+}
+
+[data-scope="dialog"][data-part="content"] {
+  scrollbar-width: thin;
+  height: 80%;
+  background-color: #fff;
+  padding: 45px;
+  position: relative;
+  overflow-y: auto;
+}
+
+[data-scope="dialog"][data-part="title"] {
+  font-weight: 700;
+  font-size: 28px;
+  color: #2b1f13;
+  margin-bottom: 30px;
+}
+
+[data-scope="dialog"][data-part="description"] {
+  display: flex;
+  gap: 20px;
+}
+
+[data-scope="dialog"][data-part="divider"] {
+  display: block;
+  width: 100%;
+  height: 0;
+  border: 1px solid #2b1f13;
+  opacity: 0.4;
+}
+
+[data-scope="dialog"][data-part="close-trigger"] {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  overflow-y: auto;
+}
+
+.amount {
+  font-weight: 600;
+  font-size: 28px;
+  text-align: right;
+  color: #2b1f13;
+}
+
+@media (max-width: 768px) {
+  [data-scope="dialog"][data-part="content"] {
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    height: 90%;
+  }
+}

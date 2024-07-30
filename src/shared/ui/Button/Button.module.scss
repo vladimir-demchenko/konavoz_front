@@ -14,6 +14,17 @@
 .white {
   border: 1px solid #fff;
   color: #fff;
+
+  &:hover {
+    color: #2b1f13;
+    background-color: #fff;
+  }
+}
+
+.brownFullFilled {
+  border: 0;
+  color: #fff;
+  background-color: #2b1f13;
 }
 
 .whiteFullFilled {
@@ -25,11 +36,26 @@
 .brown {
   border: 1px solid #2b1f13;
   color: #2b1f13;
+
+  &:hover {
+    color: #fff;
+    background-color: #2b1f13;
+  }
+}
+
+.clear {
+  background-origin: transparent;
+  border: 0;
 }
 
 .lightBrown {
   border: 1px solid #543c24;
   color: #543c24;
+
+  &:hover {
+    color: #fff;
+    background-color: #543c24;
+  }
 }
 
 .m {
@@ -40,4 +66,9 @@
 .xs {
   padding-block: 6px;
   min-width: 130px;
+}
+
+.default {
+  padding-block: 6px;
+  min-width: fit-content;
 }

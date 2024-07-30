@@ -16,11 +16,11 @@ export const Footer = () => {
             <h3 className={cls.subtitle}>Навигация</h3>
             <nav>
               <ul className={cls.navList}>
-                <li><a className={cls.navLink} href="#organic">Органические удобрения</a></li>
-                <li><a className={cls.navLink} href="">Грунты</a></li>
-                <li><a className={cls.navLink} href="">Магазин</a></li>
-                <li><a className={cls.navLink} href="">О нас</a></li>
-                <li><a className={cls.navLink} href="">Доставка</a></li>
+                <li className={cls.navItem}><a className={cls.navLink} href="#organic">Органические удобрения</a></li>
+                <li className={cls.navItem}><a className={cls.navLink} href="#ground">Грунты</a></li>
+                <li className={cls.navItem}><a className={cls.navLink} href="#shop">Магазин</a></li>
+                <li className={cls.navItem}><a className={cls.navLink} href="#about">О нас</a></li>
+                <li className={cls.navItem}><a className={cls.navLink} href="#delivery">Доставка</a></li>
               </ul>
             </nav>
           </div>

@@ -4,7 +4,7 @@ import cls from './AboutUs.module.scss';
 
 export const AboutUs = () => {
   return (
-    <section className='full-width'>
+    <section id='about' className='full-width'>
       <h2 className={cls.title}>О нас</h2>
       <h3 className={cls.subtitle}>Мы гарантируем</h3>
       <span className={cls.divider} />

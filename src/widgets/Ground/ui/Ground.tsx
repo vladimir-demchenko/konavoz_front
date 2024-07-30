@@ -3,7 +3,7 @@ import cls from './Ground.module.scss';
 
 export const Ground = () => {
   return (
-    <section className='full-width'>
+    <section id='ground' className='full-width'>
       <h2 className={cls.title}>Грунты</h2>
       <ProductDetail
         className={cls.firstItem}

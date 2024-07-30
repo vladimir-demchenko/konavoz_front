@@ -1,7 +1,6 @@
 .input {
   background-color: transparent;
-  border: 1px solid #fff;
-  color: #fff; 
+  
   padding-inline: 25px;
   padding-block: 18px;
   font-weight: 600;
@@ -28,5 +27,23 @@
     &::placeholder {
       opacity: 1;
     }
+  }
+}
+
+.white {
+  border: 1px solid #fff;
+  color: #fff;
+
+  &::placeholder {
+    color: #fff;
+  }
+}
+
+.black {
+  border: 1px solid #2b1f13;
+  color: #2b1f13;
+
+  &::placeholder {
+    color: #2b1f13;
   }
 }

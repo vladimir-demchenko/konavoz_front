@@ -65,7 +65,7 @@ export const Organic: FC<OrganicProps> = (props) => {
               <p className={cls.usageSentence}><span className={cls.firstSentence}>Осенью </span>свежим навозом можно обложить кусты, и он будет согревать их корни</p>
             </div>
           </div>
-          <Image width={570} height={407} alt='usage' src='/images/usage.png' />
+          <Image width={0} height={0} sizes='100wh' alt='usage' src='/images/usage.png' className={cls.usageImage} />
         </div>
         {/*TODO white spaces and to JSON */}
       </div>
@@ -79,14 +79,12 @@ export const Organic: FC<OrganicProps> = (props) => {
       />
       <div className={cls.benefit}>
         <div className={cls.benefitContent}>
-          <Image width={570} height={475} alt='benefit' src='/images/benefit.png' />
-          <div className={cls.benefitDetail}>
-            <h3 className={cls.benefitTitle}>Польза</h3>
-            <div className={cls.benefitList}>
-              <span className={cls.benefitItem}>Основная сфера использования — удобрение и улучшение качества почвы. Коровий перегной — это та стадия «созревания» навоза, которая полностью готова к применению. Его используют для создания питательной смеси и подготовки почвы для высадки рассады</span>
-              <span className={cls.benefitItem}>В отличии от перегноя, свежий навоз не применяют для подпитки растений, а смешивают с землей осенью для подготовки почвы на следующий год</span>
-              <span className={cls.benefitItem}>Коровий навоз обладает так же способностью улучшать структуру почвы, делать ее более рыхлой и рассыпчатой. А при подмешивании в песчаные породы почвы он, наоборот, придает ей необходимую вязкость</span>
-            </div>
+          <Image width={0} height={0} sizes='100wh' alt='benefit' src='/images/benefit.png' className={cls.benefitImage} />
+          <h3 className={cls.benefitTitle}>Польза</h3>
+          <div className={cls.benefitList}>
+            <span className={cls.benefitItem}>Основная сфера использования — удобрение и улучшение качества почвы. Коровий перегной — это та стадия «созревания» навоза, которая полностью готова к применению. Его используют для создания питательной смеси и подготовки почвы для высадки рассады</span>
+            <span className={cls.benefitItem}>В отличии от перегноя, свежий навоз не применяют для подпитки растений, а смешивают с землей осенью для подготовки почвы на следующий год</span>
+            <span className={cls.benefitItem}>Коровий навоз обладает так же способностью улучшать структуру почвы, делать ее более рыхлой и рассыпчатой. А при подмешивании в песчаные породы почвы он, наоборот, придает ей необходимую вязкость</span>
           </div>
         </div>
       </div>
@@ -107,7 +105,7 @@ export const Organic: FC<OrganicProps> = (props) => {
               Получения перегноя выглядит следующим образом: из конюшен извлекают отходы, оставленные лошадьми, с подстилками (солома, древесные опилки), выкладывают в форму квадрата и оставляют на 3 года, чтобы навоз стал перепревшим. Свойства и получение коровьего перегноя одинаковы с созданием конского удобрения.</p>
           </div>
           <div className={cls.handlingContent}>
-            <Image width={0} height={0} sizes='100vw' style={{ width: '100%', height: 'auto', minWidth: '196px', maxWidth: '196px' }} alt='' src='/images/handling.png' />
+            <Image width={0} height={0} sizes='100vw' className={cls.handlingImage} alt='' src='/images/handling.png' />
             <h3 className={cls.handlingTitle}>Применение</h3>
             <p className={cls.handlingText}>
               Перегной обычно применяют для удобрения почвы и мульчирования грядок. Огородникам стоит запомнить, что свежий навоз нежелательно вносить в почву к молодым растениям, он может сжечь корневую систему и листья.

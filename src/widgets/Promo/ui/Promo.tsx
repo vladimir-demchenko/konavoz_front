@@ -11,8 +11,8 @@ interface PromoProps {
 export const Promo: FC<PromoProps> = (props) => {
   return (
     <section className={classNames([cls.promo, 'full-width'])}>
+      <Header />
       <div className={cls.promoContent}>
-        <Header />
         <h1 className={cls.title}>
           Навоз с доставкой <br />
           по Москве и Московской области

@@ -17,3 +17,14 @@
   gap: 90px 20px;
   margin-top: 90px;
 }
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 36px;
+  }
+
+  .productList {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px 10px;
+  }
+}
