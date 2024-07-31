@@ -42,7 +42,7 @@ export const Footer = () => {
             <Image alt='logo' src='/icons/logo.svg' width={0} height={0} sizes='100wh' className={cls.logo} />
             <span className={cls.logoText}>© 2024, Конавоз</span>
           </div>
-          <a className={cls.sublink}>Политика конфиденциальности</a>
+          <a href='/privacy' target='_blank' className={cls.sublink}>Политика конфиденциальности</a>
         </div>
       </div>
     </footer>
