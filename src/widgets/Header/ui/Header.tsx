@@ -5,10 +5,12 @@ import cls from './Header.module.scss'
 import { Button, ButtonSize, ButtonTheme } from '@/shared/ui/Button'
 import { useLayoutEffect, useState } from 'react'
 import classNames from 'classnames'
+import { CartModal } from '@/widgets/CartModal/ui/CartModal'
 
 export const Header = () => {
   const [collapse, setCollapse] = useState(true);
   const [colorChange, setColorChange] = useState(false);
+  const [open, setOpen] = useState(false);
 
   useLayoutEffect(() => {
     const changeHeaderColor = () => {
@@ -41,11 +43,12 @@ export const Header = () => {
             <li className={cls.navItem}><a className={cls.navLink} href="#contacts">Контакты</a></li>
           </ul>
         </nav>
-        <a href='#contacts' className={cls.contactButton}>Контакты</a>
+        <Button onClick={() => setOpen(true)} className={classNames(cls.cartButton)} theme={ButtonTheme.WHITE} size={ButtonSize.XS}>Корзина</Button>
         <Button theme={ButtonTheme.CLEAR} className={classNames(cls.hamburgerButton, { [cls.active]: !collapse })} onClick={() => setCollapse((prev) => !prev)}>
           <span className={cls.hamburger} />
         </Button>
       </div>
+      <CartModal isOpen={open} setIsOpen={setOpen} />
     </div>
   )
 }

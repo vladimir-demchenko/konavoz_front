@@ -53,3 +53,17 @@
     color: #2b1f13;
   }
 }
+
+.link {
+  grid-column: 3;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #fff;
+
+  &:hover {
+    text-decoration: none;
+  }
+}

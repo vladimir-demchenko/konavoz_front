@@ -10,6 +10,7 @@ import classNames from 'classnames';
 import { SubmitHandler, useForm, Controller } from 'react-hook-form';
 import axios from 'axios';
 import { useProductStore } from '@/providers/store-provider';
+import { useToast } from '@/shared/ui/Toast';
 
 interface FormData {
   name: string;
@@ -20,6 +21,7 @@ interface FormData {
 export const CartForm = ({ className }: { className?: string }) => {
   const { control, register, handleSubmit } = useForm<FormData>();
   const { items } = useProductStore((state) => state);
+  const { toaster, Toaster } = useToast();
   const amount = Object.values(items).reduce((acc, cur) => acc + (cur.quantity * cur.product.price), 0)
 
   const onSubmit: SubmitHandler<FormData> = (data) => {
@@ -28,6 +30,12 @@ export const CartForm = ({ className }: { className?: string }) => {
       phone: data.phone,
       amount,
       items
+    }).then(() => {
+      toaster.create({
+        title: 'Заказ отправлен!',
+        description: `Ваш заказ принят. В ближайшее время с вами свяжется менеджер`,
+        type: 'success'
+      })
     })
   }
 
@@ -36,6 +44,7 @@ export const CartForm = ({ className }: { className?: string }) => {
       <input className={classNames(cls.input, cls.black)} placeholder='Имя' {...register('name')} />
       <InputMask mask={'+7 999 999-99-99'} className={classNames(cls.input, cls.black)} placeholder='Телефон' {...register('phone', { required: true })} />
       <Button type='submit' theme={ButtonTheme.BROWN_FULL_FILLED}>Оформить заказ</Button>
+      {Toaster}
     </form>
   )
 }

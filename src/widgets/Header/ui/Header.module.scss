@@ -31,12 +31,6 @@
   align-items: center;
 }
 
-.navItem {
-  &:last-child {
-    display: none;
-  }
-}
-
 .contactButton {
   display: flex;
   justify-content: center;
@@ -190,6 +184,12 @@
     &:last-child {
       display: list-item;
     }
+  }
+
+  .cartButton {
+    font-size: 14px;
+    padding-block: 4px;
+    min-width: 100px;
   }
 }
 
