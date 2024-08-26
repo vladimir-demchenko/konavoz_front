@@ -30,6 +30,7 @@ export const Product = ({ id, name, image, price, detail, newProduct, setOpen }:
         type: 'success'
       })
       addToCart({ id, name, image, price, detail, new: newProduct })
+      setOpen((prev: boolean) => !prev)
     } else {
       setOpen((prev: boolean) => !prev)
     }
