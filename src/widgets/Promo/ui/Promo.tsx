@@ -19,7 +19,7 @@ export const Promo: FC<PromoProps> = (props) => {
         </h1>
         <p className={cls.promoText}>Наша компания предлагает Вашему вниманию лучшие органические удобрения для вашего участка <br />
           с доставкой</p>
-        <Button theme={ButtonTheme.WHITE} className={cls.promoButton}>Заказать</Button>
+        <a href='#shop' className={cls.promoButton}>Заказать</a>
       </div>
     </section>
   );

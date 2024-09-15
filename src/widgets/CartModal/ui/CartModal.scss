@@ -22,7 +22,8 @@
 
 [data-scope="dialog"][data-part="content"] {
   scrollbar-width: thin;
-  height: 80%;
+  max-height: 80%;
+  height: fit-content;
   background-color: #fff;
   padding: 45px;
   position: relative;
@@ -76,11 +77,26 @@
   color: #2b1f13;
 }
 
+.success {
+  width: 610px;
+  padding: 56px;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  background-color: #3e5b1b;
+}
+
 @media (max-width: 768px) {
   [data-scope="dialog"][data-part="content"] {
     width: 100%;
     max-width: 300px;
     padding: 20px;
     height: 90%;
+  }
+
+  .success {
+    width: 180px;
+    font-size: 18px;
   }
 }
