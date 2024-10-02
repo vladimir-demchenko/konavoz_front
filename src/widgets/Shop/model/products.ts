@@ -54,13 +54,6 @@ export const products: Product[] = [
     image: '/images/shop/7.png'
   },
   {
-    id: 1,
-    name: 'Навоз коровий',
-    detail: 'мешок 50 л',
-    price: 200,
-    image: '/images/shop/1.png'
-  },
-  {
     id: 2,
     name: 'Перегной коровий',
     detail: 'мешок 50 л',
@@ -102,11 +95,5 @@ export const products: Product[] = [
     price: 150,
     image: '/images/shop/11.png'
   },
-  {
-    id: 14,
-    name: 'Планированный грунт',
-    detail: 'мешок 50 л',
-    price: 100,
-    image: '/images/shop/14.png'
-  },
+
 ]
