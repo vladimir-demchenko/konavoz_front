@@ -28,7 +28,7 @@ export const products: Product[] = [
     id: 13,
     name: 'Чернозём, перегной, торф, песок',
     detail: 'мешок 45 кг',
-    price: 250,
+    price: 300,
     image: '/images/shop/13.png',
     new: true
   },
