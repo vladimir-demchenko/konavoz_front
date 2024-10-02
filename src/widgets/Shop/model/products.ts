@@ -11,7 +11,7 @@ export const products: Product[] = [
   {
     id: 9,
     name: 'Эко-грунт «Огородная смесь»',
-    detail: 'Чернозем, плодородный грунт, перегной, песок. Мешок 45 кг',
+    detail: 'Чернозем, плодородный грунт, перегной, песок. Мешок 50 л',
     price: 300,
     image: '/images/shop/9.png',
     new: true
@@ -19,7 +19,7 @@ export const products: Product[] = [
   {
     id: 12,
     name: 'Чернозем, торф и песок',
-    detail: 'мешок 45 кг',
+    detail: 'мешок 50 л',
     price: 300,
     image: '/images/shop/12.png',
     new: true
@@ -27,7 +27,7 @@ export const products: Product[] = [
   {
     id: 13,
     name: 'Чернозём, перегной, торф, песок',
-    detail: 'мешок 45 кг',
+    detail: 'мешок 50 л',
     price: 300,
     image: '/images/shop/13.png',
     new: true
@@ -91,7 +91,7 @@ export const products: Product[] = [
   {
     id: 11,
     name: 'Песок карьерный',
-    detail: 'мешок 45 кг',
+    detail: 'мешок 40 кг',
     price: 150,
     image: '/images/shop/11.png'
   },
