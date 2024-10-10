@@ -18,8 +18,8 @@ export const Promo: FC<PromoProps> = (props) => {
           по Москве и Московской области
         </h1>
         <div className={cls.phones}>
-          <span className={cls.phones_text}>+7 (985) 419-02-95</span>
-          <span className={cls.phones_text}>+7 (985) 422-58-18</span>
+          <a href="tel:+79854190295" className={cls.phones_text}>+7 (985) 419-02-95</a>
+          <a href="tel:+79854225818" className={cls.phones_text}>+7 (985) 422-58-18</a>
         </div>
         <p className={cls.promoText}>Наша компания предлагает Вашему вниманию лучшие органические удобрения для вашего участка <br />
           с доставкой</p>
