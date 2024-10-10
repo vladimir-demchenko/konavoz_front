@@ -20,7 +20,7 @@ interface FormData {
 export const DeliveryRequestForm = ({ className }: { className?: string }) => {
   const { control, register, handleSubmit, formState: { errors }, reset } = useForm<FormData>();
   const { toaster, Toaster } = useToast();
-  console.log(process.env.NEXT_PUBLIC_BASE_API)
+
   const onSubmit: SubmitHandler<FormData> = (data) => {
     axios.post(`${process.env.NEXT_PUBLIC_BASE_API}/delivery`, data).then(() => {
       toaster.create({

@@ -75,7 +75,8 @@
 
 .usageContent {
   margin-top: 25px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 60px;
 }
 
@@ -109,9 +110,9 @@
 }
 
 .usageImage {
-  width: 570px;
-  height: auto;
-  object-fit: contain;
+  width: min(100%, 570px);
+  height: 415px;
+  object-fit: cover;
 }
 
 .firstSentence {
@@ -294,12 +295,14 @@
   }
 
   .usageContent {
-    flex-direction: column-reverse;
+    grid-template-columns: 1fr;
     gap: 25px;
+    justify-items: center;
   }
 
   .usageImage {
     width: min(100%, 570px);
+    grid-row: 1;
   }
 
   .usageItemList {

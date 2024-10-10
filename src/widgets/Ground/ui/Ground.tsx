@@ -7,7 +7,7 @@ export const Ground = () => {
       <h2 className={cls.title}>Грунты</h2>
       <ProductDetail
         className={cls.firstItem}
-        image='/images/ground.png'
+        image='/images/ground.jpg'
         title='Плодородный грунт'
         position='left'
         desc='Плодородная земля – одно из главных условий хорошего урожая. Жаль, что естественный состав почвы не всегда может обеспечить полноценное питание декоративным и садовым культурам.
@@ -15,7 +15,7 @@ export const Ground = () => {
       />
       <ProductDetail
         className={cls.secondItem}
-        image='/images/soil.png'
+        image='/images/soil.jpg'
         title='Чернозем (Рязань)'
         position='right'
         desc='Чернозем — это лучшая почва для земледелия, характеризуется самым большим содержанием гумуса (до 15%) и почвенных микроорганизмов, что определяет высокое плодородие. При внесении чернозема отмечается эффект общего оздоровления почвы с восстановлением водно-воздушных характеристик.

@@ -14,7 +14,7 @@
 .image {
   width: min(100%, 570px);
   height: 480px;
-  object-fit: contain;
+  object-fit: cover;
   grid-column: 1;
   grid-row: 1 /span 3;
 }

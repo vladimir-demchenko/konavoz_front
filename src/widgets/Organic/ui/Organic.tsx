@@ -16,7 +16,7 @@ export const Organic: FC<OrganicProps> = (props) => {
         <ProductDetail
           className={cls.firstItem}
           title='Конский навоз'
-          image='/images/konskiy_navoz.png'
+          image='/images/konskiy_navoz.jpg'
           position='left'
           desc='Конский навоз — находка для огородника. Он имеет рыхлую структуру, содержит мало влаги и быстро разлагается. Состоит из лошадиных выделений и их подстилок.
           Для растений это самый лучший навоз из всех имеющихся в природе. Однако пользоваться им надлежит без фанатизма, поскольку чрезмерное применение может «пожечь» растения.'
@@ -65,7 +65,7 @@ export const Organic: FC<OrganicProps> = (props) => {
               <p className={cls.usageSentence}><span className={cls.firstSentence}>Осенью </span>свежим навозом можно обложить кусты, и он будет согревать их корни</p>
             </div>
           </div>
-          <Image width={0} height={0} sizes='100wh' alt='usage' src='/images/usage.png' className={cls.usageImage} />
+          <Image width={0} height={0} sizes='100wh' alt='usage' src='/images/usage.jpg' className={cls.usageImage} />
         </div>
         {/*TODO white spaces and to JSON */}
       </div>
@@ -91,7 +91,7 @@ export const Organic: FC<OrganicProps> = (props) => {
       <ProductDetail
         className={cls.firstItem}
         title='Перегной'
-        image='/images/humus.png'
+        image='/images/humus.jpg'
         position='left'
         desc='Перегной – натуральное удобрение, произошедшее из органических веществ (гниения растительных и животных остатков).
           Конский перегной внешне похож на массу рассыпчатого происхождения, в ней присутствует влажность, коричневый окрас вещества, солома (опилки). Коровий перегной признается эффективным средством по удобрению почвы. Им разрешено пользоваться на любых почвенных покровах.'

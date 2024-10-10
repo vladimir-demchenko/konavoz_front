@@ -44,8 +44,6 @@ export const CartForm = ({ className, setContent }: { className?: string, setCon
     })
   }
 
-  console.log(windowRef.current)
-
   return (
     <form className={classNames(cls.form, className)} onSubmit={handleSubmit(onSubmit)}>
       <input className={classNames(cls.input, cls.black)} placeholder='Имя' {...register('name')} />

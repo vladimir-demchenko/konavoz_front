@@ -8,7 +8,7 @@ export const Delivery = () => {
     <section id='delivery' className='full-width'>
       <h2 className={cls.title}>Доставка</h2>
       <div className={cls.deliveryDetail}>
-        <Image alt='' src='/images/delivery.png' sizes='100wh' width={0} height={0} className={cls.image} />
+        <Image alt='' src='/images/delivery.jpg' sizes='100wh' width={0} height={0} className={cls.image} />
         <div>
           <p className={cls.deliveryText}>Вы можете приобрести органические удобрения, гарантирующие плодородие почвы и высокий урожай,<span className={cls.highlighted}> с доставкой до Вашего участка либо самовывозом.</span></p>
           <br />
