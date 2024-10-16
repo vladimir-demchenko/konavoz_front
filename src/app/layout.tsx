@@ -34,6 +34,13 @@ export default function RootLayout({
       <body className={raleway.className}>
         <ProductStoreProvider>{children}</ProductStoreProvider>
         <Suspense>
+          <Script id='vk' strategy='beforeInteractive'>
+            {`
+              <script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src='https://vk.ru/js/api/openapi.js?173',t.onload=function(){VK.Retargeting.Init("VK-RTRG-1907820-htZfA"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src="https://vk.ru/rtrg?p=VK-RTRG-1907820-htZfA" style="position:fixed; left:-999px;" alt=""/></noscript>
+            `}
+          </Script>
+        </Suspense>
+        <Suspense>
           <YandexMetrika />
         </Suspense>
       </body>

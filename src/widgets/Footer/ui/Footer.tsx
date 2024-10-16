@@ -10,7 +10,7 @@ export const Footer = () => {
           <div className={cls.titleWrapper}>
             <h2 className={cls.title}>Навоз с доставкой
               по Москве и Московской области</h2>
-            <a><Image alt='telegram logo' src='/icons/telegramLogo.svg' width={0} height={0} sizes='100wh' className={cls.telegramLogo} /></a>
+            <a href="https://vk.com/konavoz" target='_blank'><Image alt='telegram logo' src='/icons/vk_logo.png' width={0} height={0} sizes='100wh' className={cls.telegramLogo} /></a>
           </div>
           <div className={cls.navWrapper}>
             <h3 className={cls.subtitle}>Навигация</h3>
