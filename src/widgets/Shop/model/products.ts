@@ -70,7 +70,7 @@ export const products: Product[] = [
   },
   {
     id: 3,
-    name: 'Конский навоз (с опилками)',
+    name: 'Конский перегной (с опилками)',
     detail: 'мешок 50 л',
     price: 200,
     image: '/images/shop/3.png'

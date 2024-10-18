@@ -14,7 +14,7 @@ export const Promo: FC<PromoProps> = (props) => {
       <Header />
       <div className={cls.promoContent}>
         <h1 className={cls.title}>
-          Навоз с доставкой <br />
+          Навоз, перегной, грунты с доставкой <br />
           по Москве и Московской области
         </h1>
         <div className={cls.phones}>

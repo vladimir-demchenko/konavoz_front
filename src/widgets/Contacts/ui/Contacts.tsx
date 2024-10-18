@@ -25,7 +25,7 @@ export const Contacts = () => {
           </div>
         </div>
         <div className={cls.mapWrapper}>
-          <iframe src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=170272036171" width="600" height="550"></iframe>
+          <iframe src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=170272036171" width="560" height="540" frameBorder="1" allowFullScreen></iframe>
         </div>
       </div>
     </section>
