@@ -8,7 +8,7 @@ export const AboutUs = () => {
   return (
     <section id='about' className='full-width'>
       <h2 className={cls.title}>О нас</h2>
-      <div className="sw-app" data-app="84c9745fe3a2ed6b970ef7c66da2c51f"></div>
+      <div className={`sw-app ${cls.reviews}`} data-app="84c9745fe3a2ed6b970ef7c66da2c51f"></div>
       <h3 className={cls.subtitle}>Мы гарантируем</h3>
       <span className={cls.divider} />
       <Suspense>

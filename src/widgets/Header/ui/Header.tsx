@@ -35,11 +35,11 @@ export const Header = () => {
         <nav className={classNames(cls.nav, { [cls.navActive]: !collapse })}>
           <Image src='/icons/logo_without_text.svg' alt='logo' height={0} width={0} sizes='100vw' className={cls.logoWithoutText} />
           <ul className={cls.navWrapper}>
-            <li className={cls.navItem}><a className={cls.navLink} href="#organic">Органические удобрения</a></li>
-            <li className={cls.navItem}><a className={cls.navLink} href="#ground">Грунты</a></li>
             <li className={cls.navItem}><a className={cls.navLink} href="#shop">Магазин</a></li>
             <li className={cls.navItem}><a className={cls.navLink} href="#about">О нас</a></li>
             <li className={cls.navItem}><a className={cls.navLink} href="#delivery">Доставка</a></li>
+            <li className={cls.navItem}><a className={cls.navLink} href="#organic">Органические удобрения</a></li>
+            <li className={cls.navItem}><a className={cls.navLink} href="#ground">Грунты</a></li>
             <li className={cls.navItem}><a className={cls.navLink} href="#contacts">Контакты</a></li>
           </ul>
         </nav>

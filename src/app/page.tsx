@@ -14,11 +14,11 @@ export default function Home() {
   return (
     <main className={classNames([styles.main, 'app'])}>
       <Promo />
-      <Organic />
-      <Ground />
       <Shop />
       <AboutUs />
       <Delivery />
+      <Organic />
+      <Ground />
       <Contacts />
       <Footer />
     </main>

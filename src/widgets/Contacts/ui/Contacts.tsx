@@ -25,7 +25,7 @@ export const Contacts = () => {
           </div>
         </div>
         <div className={cls.mapWrapper}>
-          <div style={{ position: "relative", overflow: "hidden" }}><a href="https://yandex.ru/maps?utm_medium=mapframe&utm_source=maps" style={{ color: "#eee", fontSize: "12px", position: "absolute", top: "0px" }}>Яндекс Карты</a><a href="https://yandex.ru/maps/?from=mapframe&ll=38.037650%2C55.566560&mode=usermaps&source=mapframe&um=constructor%3Absm6zn9Yr20JkiGrnySmJ9pA2XgsFboS&utm_medium=mapframe&utm_source=maps&z=10" style={{ color: "#eee", fontSize: "12px", position: "absolute", top: "14px" }}>Яндекс Карты — транспорт, навигация, поиск мест</a><iframe src="https://yandex.ru/map-widget/v1/?from=mapframe&ll=38.037650%2C55.566560&mode=usermaps&source=mapframe&um=constructor%3Absm6zn9Yr20JkiGrnySmJ9pA2XgsFboS&utm_source=mapframe&z=10" width="600" height="540" frameBorder="1" allowFullScreen style={{ position: "relative" }}></iframe></div>
+          <iframe src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=170272036171" width="600" height="550"></iframe>
         </div>
       </div>
     </section>

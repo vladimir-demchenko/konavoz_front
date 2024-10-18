@@ -33,6 +33,14 @@ export const products: Product[] = [
     new: true
   },
   {
+    id: 14,
+    name: 'Торф и песок',
+    detail: 'мешок 50 л',
+    price: 250,
+    image: '/images/shop/14.png',
+    new: true
+  },
+  {
     id: 5,
     name: 'Плодородный грунт',
     detail: 'мешок 50 л',
@@ -95,5 +103,6 @@ export const products: Product[] = [
     price: 150,
     image: '/images/shop/11.png'
   },
+
 
 ]
